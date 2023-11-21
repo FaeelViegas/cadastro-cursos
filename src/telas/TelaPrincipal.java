@@ -31,9 +31,6 @@ public class TelaPrincipal extends javax.swing.JFrame {
         btnLisCursos = new javax.swing.JButton();
         btnCaCurso = new javax.swing.JButton();
         btnCaArea = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("MENU PRINCIPAL");
@@ -50,7 +47,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 btnLisCursosActionPerformed(evt);
             }
         });
-        jPanel1.add(btnLisCursos, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 80, 175, 35));
+        jPanel1.add(btnLisCursos, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 80, 190, 35));
 
         btnCaCurso.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btnCaCurso.setText("CADASTRAR CURSOS");
@@ -61,7 +58,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 btnCaCursoActionPerformed(evt);
             }
         });
-        jPanel1.add(btnCaCurso, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 170, -1, 35));
+        jPanel1.add(btnCaCurso, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 170, 190, 35));
 
         btnCaArea.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         btnCaArea.setText("CADASTRAR AREAS");
@@ -72,16 +69,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 btnCaAreaActionPerformed(evt);
             }
         });
-        jPanel1.add(btnCaArea, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 260, 175, 35));
-
-        jLabel1.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(255, 255, 255)));
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 230, 290, 100));
-
-        jLabel2.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(255, 255, 255)));
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 50, 290, 90));
-
-        jLabel3.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(255, 255, 255)));
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 140, 290, 90));
+        jPanel1.add(btnCaArea, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 260, 190, 35));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 750, 370));
 
@@ -146,9 +134,6 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton btnCaArea;
     private javax.swing.JButton btnCaCurso;
     private javax.swing.JButton btnLisCursos;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
