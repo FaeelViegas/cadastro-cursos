@@ -13,7 +13,7 @@ e como as tabelas se relacionam no banco de dados.
   <br><br>
   MENU
   <br>
-  <img src="https://i.imgur.com/ziDYDQm.png" alt="menu inicial">
+  <img src="https://i.imgur.com/dNDlicg.png" alt="menu inicial">
   <br><br>
   TELA DE LISTAGEM
   <br>
